@@ -11,15 +11,14 @@
 }
 
 /* Default class for hidden windows */
-.ow-closed {
+.ow_closed {
   display: none;
 }
 
 /* User-defined style */
 .modal {
-  height: 300px;
   left: 50%;
+  top: 50px;
   position: fixed;
-  width: 300px;
-  background: #000;
+  z-index: 20;
 }
